@@ -66,14 +66,13 @@ nav a {
     
     background-color:  #FDE8C1;
 }
-nav a:hover{
-   
-    padding:0.5rem 2.9rem 0.5rem 2.9rem;
-    border-bottom: 0.3rem solid gray;
-    border-top: 0.1rem solid gray;
-    border-right: 0.1rem solid gray;
-    border-left: 0.1rem solid gray;
-    
+nav a:hover {
+    box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.2);
+    transition: all .1s;
+}
+
+nav a:active {
+    box-shadow: 0px 3px 5px -4px rgba(0,0,0,0.5);
 }
 
 section {
